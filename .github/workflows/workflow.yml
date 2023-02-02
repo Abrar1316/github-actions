@@ -18,7 +18,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm test
-      - uses: Abrar1316/s3-sync-action@master
+      - uses: Abrar1316/github-actions@master
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
