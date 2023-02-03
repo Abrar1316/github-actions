@@ -1,5 +1,7 @@
-const test = require('tape');
-const expect = require('expect');
+// at the top of the file
+import test from 'tape';
+import expect from 'expect';
+// rest of your code
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
