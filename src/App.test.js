@@ -1,3 +1,5 @@
+const test = require('tape');
+const expect = require('expect');
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
